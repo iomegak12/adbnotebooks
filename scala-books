@@ -1,4 +1,9 @@
 // Databricks notebook source
 val items = List(10 to 100 by 15)
 
-for(item <- items if item % 3 == 0) println(item)
+// COMMAND ----------
+
+for(item <- items) println(item)
+
+// COMMAND ----------
+
